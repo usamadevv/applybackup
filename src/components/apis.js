@@ -1,0 +1,1 @@
+export var api='http://3.11.79.170:4000/api/'
