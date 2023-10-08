@@ -66,6 +66,168 @@ justify-content: flex-end
 ;
 padding-right: 20px;
 }
+.slick-prev::before{
+ display: none!important;
+}
+
+.slick-prev{
+    width: 80px!important;
+    height: 80px!important;
+    background: #010101;
+
+    position: absolute;
+    top: 30px!important;
+    z-index: 9;
+    background-color: rgba(255, 255, 255, 0.8)!important;
+
+}
+
+.slick-next::before{
+    display: none!important;
+   }
+   .shexp{
+    position: fixed;
+bottom: 0;
+padding-top: 50px;
+width: 100vw;
+height: max-content;
+left: 0;
+display: flex;
+justify-content: center;
+background-color: white;
+border-radius: 20px 20px 0 0;
+
+   }
+   .shexp2>p{
+    cursor: pointer;
+   }
+   .shexpp{
+    display: flex;
+    justify-content: center;
+   }
+   .shexp2{
+    position: relative;
+margin-top: 40px;
+padding-top: 10px;
+
+justify-self: center;
+width: 90vw;
+height: 300px;
+
+display: flex;
+justify-content: center;
+background-color: white;
+flex-direction: column;
+border-radius: 20px;
+
+   }
+   .rw1{
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+   }
+   .canc{
+    background-color: #F8F8F8!important;
+    color: #061F5C!important;
+    border: none!important;
+   }
+   .relbtn{
+    position: relative;
+
+   }
+   .relbtn>input{
+    position: absolute;
+    top: 0;
+    width: 200px;
+    left: 0;
+    height: 50px;
+    opacity: 0;
+   }
+   .btnse>button{
+    height: 52px;
+background-color: #061F5C;
+color: white;
+font-family: 'Urbanist', sans-serif;
+
+font-size: 16px;
+font-weight: 400;
+width: 48%;
+margin-top: 20px!important;
+margin-bottom: 20px!important;
+border: 0.5px solid #061F5C;
+border-radius: 5px;
+
+   }
+   .btnse{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-self: center;
+   }
+   .rw1>p{
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 300;
+    color: #010101;
+    margin-bottom: 0px;
+margin-top: 0px;
+    font-size: 16px;
+   }
+   .rw1>input{
+    margin-right: 10px;
+   }
+   .shexpr{
+    flex-direction: column!important;
+    padding-left: 20px;
+   }
+   .slick-next{
+       width: 80px!important;
+       height: 80px!important;
+       background: #010101;
+   top: auto!important;
+   z-index: 9;
+       position: absolute;
+       left: -20px!important;
+       bottom: -60px!important;
+       background-color: rgba(255, 255, 255, 0.8)!important;
+   
+   }
+   .col1exp>p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #061F5C;
+   }
+   .subexp{
+    justify-content: flex-start!important;
+    padding-left: 20px;
+   }
+   .allsl>h3{
+
+    color: #061F5C;
+   }
+   .iconsh{
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    font-size: 25px;
+    color: #061F5C;
+    right: 25px;
+   }
+   .shexpp{
+    position: fixed;
+  
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0,0.3);
+   }
+.col1exp>div{
+position: relative;
+width: 100px;
+margin-left: 10px;
+
+}
 .chk{
     width: 20px;
     height: 20px;
@@ -109,6 +271,31 @@ font-size: 14px;
     align-items: center;
     flex-direction: column;
 
+}
+.shexp2{
+    padding-left: 30px;
+}
+
+
+.shexp2>p{
+    margin-bottom: 0px;
+
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: gray;
+}
+.shexp2>input{
+    border: none;
+    border-bottom: 1px solid #3b5494;
+    width: 80%;
+}
+.shexp2>h3{
+
+    font-family: 'Urbanist', sans-serif;
+    color: #061F5C;
+    font-weight: 300;
+    font-size: 16px;
 }
 .apply>h1{
     
